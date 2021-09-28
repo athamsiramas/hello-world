@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.amnart</groupId>
-	<artifactId>hello-docker</artifactId>
-	<version>0.0.1</version>
+	<artifactId>hello-world</artifactId>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>hello-docker</name>
@@ -124,11 +124,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
-			<url>http://nexusrepo-sonatype-nexus-service.cicd.svc.cluster.local:8081/repository/maven-snapshots</url>
+			<url>http://localhost:8081/repository/maven-snapshots</url>
 		</snapshotRepository>
 		<repository>
 			<id>nexus-releases</id>
-			<url>http://nexusrepo-sonatype-nexus-service.cicd.svc.cluster.local:8081/repository/maven-releases</url>
+			<url>http://localhost:8081/repository/maven-releases</url>
 		</repository>
 	</distributionManagement>
 
