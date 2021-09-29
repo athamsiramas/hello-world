@@ -1,4 +1,4 @@
-package com.example.howtodoinjava.hellodocker;
+package com.amnart;
 
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Value;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Date;
 
 @RestController
-class HelloDockerRestController {
+class HelloRestController {
 
     @Value("${service.version}")
     String version;

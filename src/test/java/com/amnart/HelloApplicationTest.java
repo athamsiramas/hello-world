@@ -1,4 +1,4 @@
-package com.example.howtodoinjava.hellodocker;
+package com.amnart;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class HelloDockerApplicationTests {
+public class HelloApplicationTest {
 
 	@Test
 	public void contextLoads() {
